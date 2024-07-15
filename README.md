@@ -14,20 +14,19 @@
 
 A estrutura `Fabricante` é definida como segue:
 
-```text
+```c
 struct Fabricante {
     char nome[50];
     char nacionalidade[50];
     int anoFundacao;
 };
-
 ```
 
 ## Exemplo de Saída
 
 Ao executar o programa, a lista de fabricantes será ordenada e exibida no console. A saída será semelhante a:
 
-```c
+```text
 Fabricante[0]:
 Nome: Audi
 Nacionalidade: Alemanha
