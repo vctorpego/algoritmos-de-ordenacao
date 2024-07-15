@@ -14,7 +14,7 @@
 
 A estrutura `Fabricante` é definida como segue:
 
-```c
+```text
 struct Fabricante {
     char nome[50];
     char nacionalidade[50];
